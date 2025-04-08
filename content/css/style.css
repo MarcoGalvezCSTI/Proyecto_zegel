@@ -1,0 +1,274 @@
+ 
+body {
+    background: #000000 ;
+}
+
+/* DISEÑO PARA EL NAVEGADOR - USANDO CÓDIGO TODO LO APRENDIDO EN CLASE */
+nav {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0 30px 0px 30px;
+    padding: 19px;
+}
+
+
+nav li {
+    float: left;
+    color:  antiquewhite;
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+nav li ul {
+    position: absolute;
+    display: none;
+    background-color:  #000000;
+}
+
+nav a:hover {
+    color: #748226;
+}
+
+nav a {
+    text-decoration: none;
+    color: beige;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    width: 140px;
+    text-align: center;
+}
+
+
+
+nav img {
+    position: absolute;
+    display: block;  
+    margin: auto;
+    padding-left: 10px;
+}
+
+.sub_menu li {
+    float: none;
+    margin: 15px;
+}
+
+
+nav li:hover >ul {
+    display: block;
+    
+}
+
+
+/* NAVEGADOR INTERNO  */
+
+section nav li {
+    float: left;
+    color:  antiquewhite;
+    margin-right: 40px;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+section nav a {
+    text-decoration: none;
+    color: beige;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 15px;
+    width: 124px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+section nav a:hover{
+    color: #A63008;
+    font-size: 31px;
+}
+
+
+.table {
+    display: table;
+    margin: auto;
+}
+
+.row {
+    display: table-row;
+
+}
+
+.cell {
+    display: table-cell;
+    width: 300px;   
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid;
+    border-color: #8788837e;
+    border-radius: 19px;
+    margin: 6px;
+    background-color: #111111
+}
+
+/* DISEÑO TIPO CARTA, SE USO UN DV PARA MANIPULAR MEJOR EL BORDE Y COLOR */
+
+.card-horizontal {
+    padding: 0px;
+    border: 1px solid;
+    border-color: #8788837e;
+    border-radius: 19px;
+    margin: 15px;
+    background-color: #111111;
+    display: flex;
+    
+}
+
+.img {
+    width: 265px;
+}
+
+/* AGREGANDO ESTILOS A LA SEGUNDA FORMA DE PRESENTAR PRODUCTO - LOS ESTILOS AGREGADOS SON RELACIONADOS A LAS CLASES */
+
+.description{
+    width: 350px;
+    padding: 24px;
+}
+
+.btn_det_product {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 55px 0px 55px;
+    background-color: #748126;
+    border: 2px solid;
+    border-color: #8d8b8b;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.cl_imgpro_list {
+    width: 100%;
+    border-radius: 19px 0px 0px 19px;
+    border-color: #7482263e;
+    display: block;
+}
+
+
+/* ESTILO PARA EL HEADER DE LA PAGINA INDEX */
+.header_index {
+    width: 1fr;
+    height: 550px;
+    background-image: url(/content/img/banner1.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ESTILO PARA EL HEADER DE LA PAGINA NUESTRAS ALITAS */
+.header_alita {
+    width: 1fr;
+    height: 550px;
+    background-image: url(/content/img/banner2.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cl_imgproduct {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid;
+    border-color: #7482263e;
+}
+
+
+.banner_int {
+    width: 700px;
+    background-color: rgb(0, 0, 0);
+    margin: 15px;  
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    width: 100%;
+}
+
+h3 s {
+    text-align: center;
+    color: #aaac9e;
+    margin: auto;
+    width: 100%;
+}
+
+h4 {
+    margin: 0px;
+    color: aliceblue;
+}
+
+
+p {
+    margin: 0px;
+    color: aliceblue;
+}
+
+.cl_nameproduct {
+    color: aliceblue;
+    /* Centrar el texto */
+    text-align: left;
+    /* usar padding para margen interno */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* Redondear bordes */
+    border-radius:10px ;
+}
+
+.btn_ver_product {
+    text-align: center;
+    padding: 10px;
+    background-color: #748126;
+    border: 2px solid;
+    border-color: #8d8b8b;
+    border-radius: 4px 4px 4px 4px;
+}
+
+
+
+footer{
+    width: 1300px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.cl_logofooter {
+    width: 45%;
+    padding-left: 70px;
+    padding-right: 150px;
+}
+
+
+.by_creation {
+    color: aliceblue;
+    text-align: center;
+}
